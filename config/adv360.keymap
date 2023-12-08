@@ -57,11 +57,11 @@
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp KP_NUM       &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &trans                                               &mo 3              &trans  &trans  &trans  &trans  &trans  &kp MINUS
-&kp TAB    &kp Q      &kp KP_NUMBER_7  &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &kp PRINTSCREEN                                      &kp C_VOLUME_UP    &trans  &trans  &trans  &trans  &trans  &kp BSLH
-&kp ESC    &kp A      &kp KP_N4        &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &kp C_MUTE       &trans  &trans      &trans  &trans  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &kp SQT
-&kp LSHFT  &kp Z      &kp KP_N1        &kp KP_N2     &kp KP_N3     &kp KP_ENTER                              &trans      &trans                             &trans  &trans  &trans  &trans  &trans  &kp RSHFT
-&trans     &kp GRAVE  &kp KP_N0        &kp KP_N0     &kp KP_DOT                     &trans           &trans  &trans      &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans
+&kp EQUAL  &kp N1     &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &trans                                               &mo 3              &trans  &trans  &trans  &trans  &trans  &kp MINUS
+&kp TAB    &kp Q      &kp N7      &kp N8        &kp N9        &kp KP_MINUS     &kp PRINTSCREEN                                      &kp C_VOLUME_UP    &trans  &trans  &trans  &trans  &trans  &kp BSLH
+&kp ESC    &kp A      &kp N4      &kp N5        &kp N6        &kp KP_PLUS      &kp C_MUTE       &trans  &trans      &trans  &trans  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &kp SQT
+&kp LSHFT  &kp Z      &kp N1      &kp N2        &kp N3        &kp KP_ENTER                              &trans      &trans                             &trans  &trans  &trans  &trans  &trans  &kp RSHFT
+&trans     &kp GRAVE  &kp KP_N0   &kp KP_N0     &kp KP_DOT                     &trans           &trans  &trans      &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -70,7 +70,7 @@
 &kp F1  &kp F2     &kp F3     &kp F4         &kp F5         &kp F6     &tog 1                                                      &mo 3          &kp F7  &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
 &trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)      &kp LG(R)      &kp LG(T)  &kp HOME                                                    &kp PAGE_UP    &trans  &trans          &trans          &trans           &trans   &trans
 &trans  &kp LG(A)  &kp LG(S)  &kp LG(D)      &kp LG(F)      &kp LG(G)  &kp END        &kp LSHFT  &kp LALT          &trans  &trans  &kp PAGE_DOWN  &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans   &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)      &kp LG(B)                            &kp LEFT_GUI      &trans                         &trans  &trans          &kp DOWN_ARROW  &trans           &trans   &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)      &kp LG(B)                            &kp LEFT_GUI      &trans                         &trans  &kp LEFT        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
 &trans  &trans     &trans     &kp LG(LS(S))  &kp LG(LS(D))             &kp LG(LSHFT)  &trans     &trans            &trans  &trans  &kp RG(SPACE)          &trans          &trans          &trans           &trans   &trans
             >;
         };
